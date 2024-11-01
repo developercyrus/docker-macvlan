@@ -4,7 +4,9 @@
 3. The networking equipment on the host needs to be able to handle "promiscuous mode"
 ```bash
 
-sudo docker run \
+$ ./create-network.sh
+
+$ sudo docker run \
   --rm \
   --detach \
   --network ens18_network \
