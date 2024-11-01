@@ -1,6 +1,6 @@
 ### Notes
 1. Docker run does NOT need any port mapping 
-2. By design, host cannot ping to container, even they're situated on the same subnet.
+2. By design, EXCEPT host, all other devices on the same subnet can ping to container. 
 3. The networking equipment on the host needs to be able to handle "promiscuous mode"
 ```bash
 
